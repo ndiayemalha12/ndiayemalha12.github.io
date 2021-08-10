@@ -536,6 +536,9 @@ html,body {
   }
 }
 @media screen and (max-width: 600px) {
+  header {
+   margin-top: 100px;
+  }
   .sizeLien {
      flex-direction: row;
   } 
@@ -580,7 +583,6 @@ html,body {
   }
   .mobileNone {
      display: none;
-
   }
   .margFiltre {
      padding-left: 5%;
